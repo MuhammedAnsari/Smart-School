@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".parentshome"
+    android:background="@drawable/teacher">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="49dp"
+        android:fontFamily="times"
+        android:text="Parent's Home"
+        android:textColor="@color/white"
+        android:layout_marginBottom="60dp"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/viewAttendances"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_x="63dp"
+        android:background="@drawable/button2"
+        android:layout_y="257dp"
+        android:text="View Attendance" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:id="@+id/feeDetails"
+        android:layout_x="61dp"
+        android:layout_marginTop="15dp"
+        android:layout_y="358dp"
+        android:background="@drawable/button2"
+        android:text="Fee Details" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:id="@+id/viewProgressBtn"
+        android:background="@drawable/button2"
+        android:layout_marginTop="15dp"
+        android:layout_x="63dp"
+        android:layout_y="159dp"
+        android:text="View progress" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:id="@+id/applayForleave"
+        android:layout_x="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button2"
+        android:layout_y="461dp"
+        android:text="Apply For Leave" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:id="@+id/logoutNow"
+        android:layout_x="60dp"
+        android:layout_y="461dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button2"
+        android:text="Logout" />
+</LinearLayout>

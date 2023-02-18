@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gb_back">
+
+    <TextView
+        android:layout_width="186dp"
+        android:layout_height="47dp"
+        android:layout_x="98dp"
+        android:layout_y="46dp"
+        android:fontFamily="times"
+        android:textColor="@color/white"
+        android:text="WELCOME"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_x="21dp"
+        android:textColor="@color/white"
+        android:layout_y="199dp"
+        android:text="Username"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_x="22dp"
+        android:layout_y="279dp"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_x="135dp"
+        android:layout_y="270dp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/usr"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="189dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="198dp"
+        android:layout_height="60dp"
+        android:layout_x="87dp"
+        android:layout_y="360dp"
+        android:text="LOGIN"
+        android:id="@+id/login"
+        android:textSize="20dp"/>
+
+
+</AbsoluteLayout>

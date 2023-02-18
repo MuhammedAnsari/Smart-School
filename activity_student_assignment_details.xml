@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/t1"
+    tools:context=".StudentAssignmentDetails">
+
+  <TextView
+      android:id="@+id/titleStAssignment"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="25dp"
+      android:padding="10dp"
+      android:layout_marginTop="100dp"
+      android:textColor="@color/black"
+      android:textAlignment="center"
+      android:text=""
+      android:background="#cdffffff"
+      tools:layout_editor_absoluteX="153dp"
+      tools:layout_editor_absoluteY="80dp" />
+
+  <TextView
+      android:id="@+id/descStAssignment"
+      android:layout_width="match_parent"
+      android:padding="10dp"
+      android:layout_height="wrap_content"
+      android:textColor="@color/black"
+      android:background="#cdffffff"
+      android:text=""
+      android:layout_marginTop="25dp"
+      tools:layout_editor_absoluteX="155dp"
+      tools:layout_editor_absoluteY="145dp" />
+
+  <Button
+      android:id="@+id/assignmnentUpload"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="50dp"
+      android:background="@drawable/button2"
+      android:text="Upload my Assignment" />
+</LinearLayout>

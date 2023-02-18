@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    android:background="@drawable/t1"
+    tools:context=".viewmark"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="127dp"
+        android:layout_y="88dp"
+        android:fontFamily="times"
+        android:text="MARKS"
+        android:id="@+id/marksTitle"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borders"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textFontWeight="700"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:background="#cdffffff"
+            android:textAlignment="center"
+            android:text="Name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textFontWeight="700"
+            android:textSize="20dp"
+            android:background="#cdffffff"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="Subject" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textFontWeight="700"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:background="#cdffffff"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Mark" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/marViewRecycles"
+        android:layout_marginTop="25dp"
+        android:layout_height="match_parent"
+        android:layout_x="15dp"
+        android:layout_y="142dp" />
+
+</LinearLayout>

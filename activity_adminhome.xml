@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/abc"
+    android:padding="20dp"
+    tools:context=".Adminhome">
+    <Button
+
+        android:id="@+id/btnTeachers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teacher Details"
+        android:background="@drawable/button_radius"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/btnStudentBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Students Details"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button_radius"
+        />
+
+    <Button
+        android:id="@+id/btnParents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parent Details"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button_radius"/>
+
+    <Button
+        android:id="@+id/btnFees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Fees"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button_radius"/>
+
+    <Button
+        android:id="@+id/logOutAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout Now"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/button_radius"/>
+
+</LinearLayout>

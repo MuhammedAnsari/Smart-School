@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/abc"
+    tools:context=".ParentsLists">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parents"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="10dp"
+        />
+    <Button
+        android:id="@+id/addNewParent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Newe Parent"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="23dp"
+        android:background="@drawable/button2"
+        android:layout_marginTop="15dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/parentListsrecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="30dp"
+        android:layout_marginTop="15dp"/>
+
+
+</LinearLayout>

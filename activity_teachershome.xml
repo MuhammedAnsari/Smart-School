@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".teachershome"
+    android:background="@drawable/teacher">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_x="79dp"
+        android:layout_y="51dp"
+        android:text="Teacher's Home"
+        android:textSize="30dp"
+        android:fontFamily="times"
+        android:textColor="#ffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_x="32dp"
+        android:layout_y="231dp"
+        android:text="Add Assignments"
+        android:textSize="18dp"
+        android:id="@+id/addAssignments"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button2"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_x="27dp"
+        android:layout_y="149dp"
+        android:text="Add Topics"
+        android:textSize="18dp"
+        android:id="@+id/addTopicsBtn"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="119dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_x="32dp"
+        android:layout_y="514dp"
+        android:text="View Leave Application"
+        android:textSize="18dp"
+        android:id="@+id/ViewLeaveApplicationBtn"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="119dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_x="30dp"
+        android:layout_y="419dp"
+        android:text="Attendance"
+        android:textSize="18dp"
+        android:id="@+id/attendanceBtn"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="119dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_x="30dp"
+        android:layout_y="326dp"
+        android:text="Add Students"
+        android:id="@+id/addStudentBtn"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="119dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_x="30dp"
+        android:layout_y="616dp"
+        android:text="Add Marks"
+        android:id="@+id/addStudentMarks"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_x="30dp"
+        android:layout_y="616dp"
+        android:text="Logout"
+        android:textSize="18dp"
+        android:id="@+id/logOut"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/button2"/>
+
+</LinearLayout>
